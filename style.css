@@ -1,3 +1,86 @@
 body {
-    background-color: brown;
+    background-color: rgb(77, 72, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.pagina {
+    width: 375px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    background-color: #ffffff;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 375px;
+    height: 80px;
+
+}
+
+.logo {
+    width: 75px;
+    height: 53px;
+    margin-left: 18px;
+}
+
+.icone-pessoas {
+    margin-right: 18px;
+    width: 45px;
+    height: 45px;
+}
+
+ul {
+    background-color: #b3b2b2;
+    width: 375px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.digitar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 375px;
+    height: 80px;
+}
+
+h1 {
+    margin-left: 18px;
+}
+
+.aviao {
+    margin-right: 18px;
+    width: 26px;
+    height: 26px;
+}
+
+li {
+    background-color: rgb(74, 74, 172);
+}
+
+.status {
+    background-color: gray;
+}
+
+.reservada {
+    background-color: pink;
+}
+
+.normal{
+    background-color: #ffffff;
 }
