@@ -41,6 +41,13 @@ body {
     height: 45px;
 }
 
+.campo-de-mensagens {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 375px;
+    height: 500px;
+}
+
 ul {
     background-color: #b3b2b2;
     width: 375px;
@@ -59,8 +66,9 @@ ul {
     height: 80px;
 }
 
-h1 {
+.escreva-aqui {
     margin-left: 18px;
+    font-size: 25x;
 }
 
 .aviao {
@@ -70,19 +78,24 @@ h1 {
 }
 
 li {
-    background-color: rgb(74, 74, 172);
     width: 375px;
     height: 40px;
+    flex-shrink: 0;
 }
 
 .status {
     background-color: gray;
 }
 
+.status > .time {
+    color: blue;
+    font-style: italic;
+}
+
 .reservada {
-    background-color: pink;
+    background-color: red;
 }
 
 .normal{
-    background-color: #ffffff;
+    background-color: pink;
 }
