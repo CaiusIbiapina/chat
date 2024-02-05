@@ -71,6 +71,8 @@ h1 {
 
 li {
     background-color: rgb(74, 74, 172);
+    width: 375px;
+    height: 40px;
 }
 
 .status {
